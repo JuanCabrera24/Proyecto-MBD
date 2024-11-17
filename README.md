@@ -1,4 +1,49 @@
 
+# **Módulo Proyecto MBD**
+
+## Nombre de la Maestría: Maestría en Inteligencia de Negocios y Ciencia de Datos  
+## Universidad de las Américas  
+## Nombre de los Integrantes: Juan Jose Cabrera  
+
+---
+
+## Problema a Resolver:
+
+El análisis y uso de los datos de facturación de PyMES para generar predicciones de ingresos y detectar tendencias de mercado, con el fin de optimizar recursos y mejorar la competitividad.
+
+---
+
+## Modelo seleccionado:
+
+Modelo SARIMA (1,1,0)x(1,1,0,12). Este modelo fue elegido por su capacidad para capturar estacionalidad y tendencias en series temporales.
+
+---
+
+## Base de datos:
+
+Los datos provienen del sistema de facturación de la empresa **Distribuidora Cabrera** y abarcan el periodo de enero de 2019 a agosto de 2024. Se consolidaron en un archivo Excel con ingresos mensuales.
+
+---
+
+## Cómo usar el Notebook para replicar los resultados:
+
+1. Asegúrate de tener instalado Python 3.x y las siguientes librerías:
+   ```bash
+   pip install pandas matplotlib statsmodels openpyxl
+   ```
+
+2. Clona este repositorio y navega al directorio del proyecto:
+   ```bash
+   git clone https://github.com/tu_usuario/predicciones-pymes.git
+   cd predicciones-pymes
+   ```
+
+3. Abre el archivo `notebooks/analisis_series_temporales.ipynb` en Jupyter Notebook.
+
+4. Ejecuta las celdas en orden para realizar el análisis y generar las visualizaciones.
+
+---
+
 # Predicciones de Ventas y Tendencias de Mercado en PyMES
 
 Este repositorio contiene el trabajo final de grado presentado en la **Universidad de las Américas**, dentro de la **Maestría en Inteligencia de Negocios y Ciencia de Datos**. El proyecto utiliza análisis de series temporales para predecir ingresos y detectar tendencias de mercado en pequeñas y medianas empresas (PyMES).
@@ -96,7 +141,7 @@ El objetivo del proyecto es analizar los datos de facturación de la empresa **D
 
 ## Contribuciones
 
-- **Autor**: Juan José Cabrera Becerra
+- **Autor**: Juan Jose Cabrera Becerra
 - **Director del Proyecto**: Ph.D. Manuel Eugenio Morocho Cayamcela
 
 ---
